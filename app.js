@@ -127,6 +127,7 @@ app.put('/blogs/:id',function(req,res){
     
 })
 
+// DELETE ROUTE
 app.delete('/blogs/:id',function(req,res){
     Blogpost.findByIdAndRemove(req.params.id,function(err){
         if (err){
