@@ -1,0 +1,27 @@
+/* body{
+    margin-top: 30px;
+    padding-top: 50px;
+} */
+
+i.icon {
+    font-size: 2em;
+}
+
+#newBlog {
+    /* max-width: 300px; */
+    width: 40%;
+   margin-bottom: 20px;
+}
+
+.container.main{
+    margin-top: 7.0em;
+    margin-bottom: 7.0em;
+}
+
+#deleteForm{
+    display: inline;
+}
+
+.arrow{
+    padding: 3px 0;
+}
